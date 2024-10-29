@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: image-set("shades-of-black.jpg");
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 25px;
+}
+
+a{
+    font-family: Timmana;
+    font-size: 24px;
+    color: #FBF5F3;
+    text-decoration: none;
+    outline: none;
+    width: auto;
+    height: 28px;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover{
+    color: #FF392E;
+}
+
+i{
+    color: #FBF5F3;
+    transition: color 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+i:hover{
+    color: #FF392E;
+}
+
+.page-title{
+    text-align: center;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-size: 100px;
+    margin: 40px;
+    color: #FBF5F3;
+}
