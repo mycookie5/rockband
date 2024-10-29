@@ -27,14 +27,61 @@
             <a href="https://x.com/wolfmother"><i class="fa-brands fa-twitter"></i></a>
         </nav>
     </header>
-    <main>
+    <main class="booking-main">
+        <h1 class="booking-intro">Need a band to rock your next event?</h1>
+
+        <p class="booking-pitch">Look no further than Wolfmother! We're a high-energy rock band based in Linköping that's ready to bring the house down. 
+            With our powerful vocals, driving rhythms, and soaring guitar solos, we'll have your audience on their feet all night long. 
+            Whether you're planning a corporate event, a private party, or a public festival, 
+            we've got the experience and talent to make your event unforgettable.</p>
+
+        <h2 class="booking-closer">Book us today and let's make some noise!</h2>
+
+        <hr>
+
+        <form action="" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" pattern="\w{3,16}" required><br><br>
         
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="jane.doe@gmail.com" pattern=".+@example\.com" required><br><br>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="46761234567" pattern="[46][0-9]{10-11}" required><br><br>
+            <!--pattern måste börja med 46 kan bara inkludera siffror och totalt 10 eller 11 tal.-->
+        
+            <label for="event_date">Event Date:</label>
+            <input type="date" id="event_date" name="event_date" placeholder="2024-12-23" required><br><br>
+        
+            <label for="event_time">Event Time:</label>
+            <input type="time" id="event_time" name="event_time" placeholder="22:00" required><br><br>
+        
+            <label for="event_location">Event Location:</label>
+            <input type="text" id="event_location" name="event_location" placeholder="Kungsgatan 23 Norrköping 563 22" required><br><br>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Any requests"></textarea><br><br>
+
+            <input type="submit" value="Book now" />
+            
+        </form>
     </main>
+
+    <hr>
     <footer>
+        <div class="footer-container">
+            <div class="address">
+                    <h1 class="address-h1">Norra Svedengatan 13</h1>
+                    <h2 class="address-h2">Linköping</h2>
+                    <h3 class="address-h3">582 73</h3>
+                    <h3 class="address-h4">Sweden</h3>
+            </div>
+            <div class="about-us">
+                <a href="https://en.wikipedia.org/wiki/Wolfmother"><h1>About us</h1></a>
+            </div>
+        </div>
 
-    </footer>
-
-
+    </footer>   
     
 </body>
 </html>
