@@ -153,12 +153,12 @@ input, textarea {
     border: none;
     border-radius: 5px;
     background-color: #333;
-    color: white;
+    color: #FBF5F3;
 }
 
 input[type="submit"] {
     background-color: #58cf5c;
-    color: white;
+    color: #FBF5F3;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -176,4 +176,28 @@ input:valid {
 
 input:invalid {
     background-color: #3a0a01;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #FBF5F3;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+}
+
+.hr-tour{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
