@@ -114,3 +114,66 @@ i:hover{
     height: 70px;
 }
 
+.booking-main {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.booking-intro {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.booking-pitch {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.booking-closer {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 800px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #58cf5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+input[type="submit"]:hover {
+    background-color: #55aa58;
+}
+
+input:valid {
+    background-color: #243510;
+}
+
+input:invalid {
+    background-color: #3a0a01;
+}
