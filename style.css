@@ -175,10 +175,6 @@ input:valid {
     background-color: #243510;
 }
 
-input:invalid {
-    background-color: #3a0a01;
-}
-
 table {
     border-collapse: collapse;
     width: 80%;
