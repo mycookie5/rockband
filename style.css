@@ -224,3 +224,12 @@ th {
     height: 400px;
     padding-top: 25px ;
 }
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
