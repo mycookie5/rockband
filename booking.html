@@ -39,21 +39,21 @@
 
         <hr>
 
-        <form action="" method="post">
+        <form method="post">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" pattern="[a-z]{3,16}" required>
         
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="jane.doe@gmail.com" required>
         
             <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" placeholder="46761234567" required>
+            <input type="tel" id="phone" name="phone" placeholder="0761234567" pattern="[0-9]{10}" required>
         
             <label for="event_date">Event Date:</label>
-            <input type="date" id="event_date" name="event_date" placeholder="2024-12-23" required>
+            <input type="date" id="event_date" name="event_date" required>
         
             <label for="event_time">Event Time:</label>
-            <input type="time" id="event_time" name="event_time" placeholder="22:00" required>
+            <input type="time" id="event_time" name="event_time" required>
         
             <label for="event_location">Event Location:</label>
             <input type="text" id="event_location" name="event_location" placeholder="Kungsgatan 23 Norrköping 563 22" required>
@@ -61,7 +61,7 @@
             <label for="message">Message:</label>
             <textarea id="message" name="message" placeholder="Any requests"></textarea>
 
-            <input type="submit" value="Book now" />
+            <input type="submit" value="Book now" >
             
         </form>
     </main>
@@ -76,7 +76,7 @@
                     <h3 class="address-h4">Sweden</h3>
             </div>
             <div class="about-us">
-                <a href="https://en.wikipedia.org/wiki/Wolfmother"><h1>About us</h1></a>
+                <a class="about" href="https://en.wikipedia.org/wiki/Wolfmother"><h1>About us</h1></a>
             </div>
         </div>
 

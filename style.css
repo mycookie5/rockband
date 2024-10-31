@@ -229,3 +229,74 @@ th {
 li{
     list-style: none;
 }
+
+@media (min-width: 430px) and (max-width: 932px) {
+    header{
+        margin-bottom: 40px;
+    }
+
+    .page-title{
+        font-size: 50px;
+    }
+
+    .home_section{
+        display: none;
+    }
+
+    .section-title{
+        font-size: 30px;
+    }
+
+    .home-band-members{
+        flex-direction: column;
+        height: 2000px;
+        align-items: center;
+        margin-top: -200px;
+        z-index: -1;
+    }
+
+    .band-member-grouper{
+        margin-left: 30px;
+    }
+
+    .band-member{
+        margin-left: 40px;
+    }
+
+    .album-collection{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .album-container{
+        width: 100%;
+    }
+
+    .album-title{
+        font-size: 32px;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    footer{
+        height: 100%;
+    }
+
+    .footer-container{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .address, .about{
+        font-size: 11px;
+    }
+
+    .booking-pitch{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .band-member-info{
+        width: 90%;
+    }
+  }
